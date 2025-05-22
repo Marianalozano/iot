@@ -48,7 +48,7 @@ document.addEventListener("DOMContentLoaded", () => {
       msgText.innerHTML = "Consultando al asistente..."; // Indicar que se está consultando al asistente
 
       // Enviar el mensaje al servidor PHP
-      fetch("http://localhost/unidadihc/api-gpt-php-examen/endpoints/chat.php", {
+      fetch("http://34.237.124.14/iot/api-gpt-php-examen/endpoints/chat.php", {
         method: "POST", // Método de la solicitud
         headers: {
           "Content-Type": "application/json", // Tipo de contenido de la solicitud
